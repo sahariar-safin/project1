@@ -1,0 +1,375 @@
+.heade{
+    width: 100%;
+    height: 125px;
+    background-color: #21243d;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    width: 100px;
+}
+.logo img {
+    width: 100%;
+}
+.main-manu ul li a {
+    color: white;
+    font-size: 38px;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    transition: 1s;
+}
+.main-manu ul li a:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.main-manu ul li {
+    padding-top: 23px;
+}
+.search {
+    height: 100px;
+}
+.search-icon {
+    color: white;
+    font-size: 49px;
+    margin-top: 25px;
+}
+.first-sec{
+    width: 100%;
+    height: 710px;
+    background-image: url("../image/first-sec.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -24px;
+}
+.first-sec .texts h1 {
+    color: white;
+    font-size: 98px;
+    font-weight: 800;
+    padding-top: 144px;
+    margin-left: 55px;
+}
+.texts p {
+    color: white;
+    font-size: 31px;
+    width: 34%;
+    margin-left: 55px;
+    padding-bottom: 40px;
+    padding-top: 35px;
+}
+.texts button {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid #21243d;
+    border-radius: 30px;
+    background-color: #21243d;
+    color: white;
+    margin-left: 55px;
+    transition: 1s;
+}
+.texts button:active, .texts button:focus{
+    outline: none;
+}
+.texts button:hover{
+    background-color: white;
+    color: #21243d;
+}
+/* second sec start */
+
+#second-sec{
+    width: 100%;
+    height: 790px;
+    background-color: #21243d;
+    position: relative;
+}
+#second-sec::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 790px;
+        background-image: url("../image/second-sec-leyar.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.secound-sec-titel h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 600;
+    padding-top: 75px;
+}
+.secound-sec-titel p {
+    color: white;
+    width: 55%;
+    margin: auto;
+    font-size: 22px;
+    padding: 14px 0px 95px 0px;
+}
+.card h1 {
+    color: white;
+    padding:  20px 0px 20px 0px;
+    font-weight: 700;
+    font-size: 31px;
+}
+.card p {
+    color: white;
+    font-size: 17px;
+    padding: 20px;
+}
+/* end secound sec */
+/* start thard sec  */
+#third-sec{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: #ffd17e;
+}
+#third-sec::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 800px;
+    background-image: url("../image/third-sec-layout.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img img {
+    margin-top: 190px;
+    margin-left: 114px;
+}
+.thaird-sec-text .texts h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 247px;
+}
+
+.thaird-sec-text .texts p {
+    width: 85%;
+    margin-left: 0px;
+    color: black;
+}
+
+.thaird-sec-text .texts button {
+    margin-left: 0px;
+}
+/* end third sec */
+/* start forth sec */
+#forth-sec{
+    width: 100%;
+    height: 790px;
+    background-color: #21243d;
+    position: relative;
+}
+#forth-sec::before {
+    position: absolute;
+    content: "";
+    width: 82%;
+    height: 790px;
+    background-image: url(../image/forth-sec-layout.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -63px;
+    right: 8%;
+}
+.count-table {
+    border: 6px solid white;
+    border-radius: 50%;
+    height: 212px;
+    width: 60%;
+    text-align: center;
+}
+
+.count-table h1 {
+    color: white;
+    margin-top: 26%;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.count-table h3 {
+    color: white;
+    font-size: 39px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* forth section end */
+/* five sectiion start */
+
+#five-sec{
+    width: 100%;
+    height: 790px;
+    background-color: #ffd17e;
+    position: relative;
+}
+#five-sec::before {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 703px;
+    background-image: url("../image/five-sec-leyar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    left: 5%;
+    top: 64px;
+}
+/* five end */
+/* six sec start */
+#six-sec{
+    width: 100%;
+    height: 790px;
+    background-image: url("../image/six-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.six-sec-overlay{
+    width: 100%;
+    height: 790px;
+    background-color: #21243d;
+    position: absolute;
+    opacity: 0.8;
+}
+.six-sec-img {
+    margin-top: 100px;
+}
+
+.six-sec-title p {
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.six-sec-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+}
+/* six sec end */
+/* seven sec start */
+#seven-sec{
+    width: 100%;
+    height: 800px;
+    background-color: #ffd17e;
+    position: relative;
+}
+#seven-sec::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 800px;
+    background-image: url("../image/seven-sec-layout.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.seven-sec-title h1 {
+    font-size: 67px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 100px 0px  25px 0px;
+}
+
+.seven-sec-title p {
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+.subscript input {
+    padding: 13px 58% 13px 2%;
+    border: 1px solid white;
+    border-radius: 47px;
+    position: relative;
+}
+input[type="email"] {
+    font-size: 25px;
+    color: #a3a3a3;
+}
+.subscript button {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background-color: #21243d;
+    border: none;
+    padding: 10px 36px;
+    border-radius: 30px;
+    position: absolute;
+    right: 93px;
+    transition: 1s;
+    /* top: 2px; */
+}
+.subscript button:hover{
+    color: #21243d;
+    background-color: white;
+    border: 1px solid #21243d;
+}
+.subscript input:active,
+.subscript input:focus,
+.subscript button:active,
+.subscript button:focus{
+    outline: none;
+}
+/* seven sec end */
+/* footer start */
+#footer{
+    width: 100%;
+    height: 780px;
+    background-color: #111111;
+}
+.social-icons h1 {
+    font-size: 63px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.social-icons p {
+    font-size: 25px;
+    color: white;
+    padding: 23px 0px;
+}
+
+.social li a {
+    color: black;
+    background-color: white;
+    padding: 15px 17px;
+    font-size: 22px;
+    border-radius: 50%;
+}
+.social-icons {
+    margin-top: 217px;
+    margin-left: 30px;
+}
+.footer-widgth ul li a {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;}
+
+.footer-widgth ul li {
+    padding-top: 12px;
+}
+
+.footer-widgth h1 {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer-widgth {
+    margin-top: 210px;
+    margin-left: 20px;
+}
